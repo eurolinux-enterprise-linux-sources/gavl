@@ -1,6 +1,6 @@
 Name:           gavl
 Version:        1.4.0
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        A library for handling uncompressed audio and video data
 
 Group:          System Environment/Libraries
@@ -98,6 +98,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4.0-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.0-3
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.4.0-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
